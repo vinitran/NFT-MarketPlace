@@ -1,0 +1,10 @@
+.home-wrapper {
+}
+.home-wrapper .nft-item-wrapper{
+    width: 25%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.home-wrapper .each-row {
+}

@@ -1,0 +1,31 @@
+.navbar-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  margin-bottom: 30px;
+}
+.navbar-wrapper .navbar-left {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 27px;
+  font-weight: 600;
+}
+.navbar-wrapper .navbar-center {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-wrapper .navbar-center .item{
+  margin: 0px 20px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+
+}
+.navbar-wrapper .navbar-center .item:hover{
+  color: rgba(255, 255, 255, 0.9);
+}
+.navbar-wrapper .navbar-right button{
+  color: rgba(255, 255, 255, 0.9);
+}

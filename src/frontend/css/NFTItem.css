@@ -1,0 +1,52 @@
+.item-wrapper {
+    background-color:rgba(255,255,255,0.6);
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+    position: relative;
+    opacity: 1;
+    transition: .6s ease;
+}
+.item-wrapper .image{
+    border-radius: 25px;
+    width: 100%;
+}
+.item-wrapper .description{
+    transition: .6s ease;
+    bottom: 0%;
+    padding: 3px 20px;
+    position: absolute;
+    background-color: rgba(17,17,17,0.3);
+    width: 100%;
+    height: 25%;
+}
+.item-wrapper .description .name{
+    color: rgba(255,255,255,0.8);
+    font-weight: 500;
+    font-size: 17px;
+    transition: .6s ease;
+}
+.item-wrapper .description .price-id{
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    transition: .6s ease;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.item-wrapper:hover {
+    transform: scale(1.05);
+}
+.item-wrapper:hover .description{
+    background-color: rgba(17,17,17,0.8);
+}
+.item-wrapper:hover .description .name{
+    color: rgba(255,255,255,0.95);
+    font-weight: 500;
+    font-size: 17px;
+}
+.item-wrapper:hover .description .price-id{
+    color: rgba(255,255,255,0.85);
+    font-size: 14px;
+}

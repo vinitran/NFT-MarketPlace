@@ -1,0 +1,12 @@
+.my-listed-item {
+}
+.my-listed-item .nft-item-wrapper{
+    width: 25%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.my-listed-item .listed-row {
+    display: flex;
+    flex-direction: row;
+}
